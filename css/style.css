@@ -1,0 +1,154 @@
+body {
+  margin: 0%;
+  padding: 0%;
+}
+
+/* titre et logo font: Shrikhand */
+/* Texte font: Roboto */
+body {
+  font-family: "Roboto";
+}
+
+.reservation__bouton {
+  padding: 15px 15px;
+  border-radius: 100px;
+  border: none;
+  background: #9356dc;
+  background: linear-gradient(353deg, #9356dc 0%, #ff79da 74%);
+  color: white;
+  font-weight: 555;
+}
+
+header {
+  display: flex;
+}
+
+.header__logo {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 1%;
+}
+
+.restaurant__card__img {
+  height: 400px;
+  width: 400px;
+}
+
+footer {
+  background: #353535;
+}
+
+.reservation {
+  text-align: center;
+  background: #F6F6F6;
+  padding-bottom: 2%;
+}
+
+.reservation__local {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #EAEAEA;
+  padding: 10px 10px;
+  color: #353535;
+  font-weight: 500;
+}
+.reservation__local span {
+  margin-left: 0.5%;
+}
+
+.reservation__recherche__titre p {
+  font-weight: 300;
+}
+
+.fonctionnement h2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.fonctionnement .fonctionnement__list {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-bottom: 1%;
+}
+.fonctionnement .fonctionnement__list__titre {
+  font-weight: bold;
+}
+.fonctionnement .fonctionnement__list--1 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1.5rem;
+  box-shadow: 0.25rem 0.25rem 0.5rem rgba(0, 0, 0, 0.13);
+  border-radius: 1.25rem;
+  background-color: #F6F6F6;
+}
+.fonctionnement .fonctionnement__list--1 span {
+  margin-left: -14.5%;
+  background: #9356DC;
+  height: 1.5rem;
+  width: 1.5rem;
+  border-radius: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+.fonctionnement .fonctionnement__list--2 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1.5rem;
+  box-shadow: 0.25rem 0.25rem 0.5rem rgba(0, 0, 0, 0.13);
+  border-radius: 1.25rem;
+  background-color: #F6F6F6;
+}
+.fonctionnement .fonctionnement__list--2 span {
+  margin-left: -14.5%;
+  background: #9356DC;
+  height: 1.5rem;
+  width: 1.5rem;
+  border-radius: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+.fonctionnement .fonctionnement__list--3 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1.5rem;
+  box-shadow: 0.25rem 0.25rem 0.5rem rgba(0, 0, 0, 0.13);
+  border-radius: 1.25rem;
+  background-color: #F5EDFF;
+}
+.fonctionnement .fonctionnement__list--3 span {
+  margin-left: -14.5%;
+  background: #9356DC;
+  height: 1.5rem;
+  width: 1.5rem;
+  border-radius: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+.fonctionnement .fonctionnement__list--3 .fonctionnement__list--3--fas {
+  color: #9356DC;
+}
+.fonctionnement .fonctionnement__list--fas {
+  color: #7e7e7e;
+}
+
+.restaurant {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background: #F6F6F6;
+}
+
+/*# sourceMappingURL=style.css.map */

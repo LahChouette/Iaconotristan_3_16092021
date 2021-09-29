@@ -1,0 +1,105 @@
+@import './Base/base';
+@import './Base/typography';
+@import './utils/variables';
+@import './utils/mixins';
+@import './components/buttons';
+@import './Layout/header';
+@import './page/card';
+@import './Layout/footer';
+
+
+.reservation{
+    text-align: center;
+    background:$couleur-box-gris;
+    padding-bottom: 2%;
+}
+
+.reservation__local{
+    @include flex-center();
+    background: $couleur-box-gris-foncer;
+    padding: 10px 10px;
+    color: $couleur-box-noir;
+    font-weight: 500;
+    span {
+        margin-left: 0.5%;
+    }
+    
+}
+
+.reservation__recherche__titre{
+    p{
+        font-weight: 300;
+    }
+}
+
+.fonctionnement {
+    
+    h2 {
+        @include flex-center();
+    }
+    .fonctionnement__list{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        margin-bottom: 1%;
+    }
+
+    .fonctionnement__list__titre {
+        font-weight: bold;
+    }
+    .fonctionnement__list--1 {
+        @include flex-space-between();
+        @include fonctionnement-border();
+        background-color: $couleur-box-gris;
+        span {
+            margin-left: -14.5%;
+            background: $couleur-primaire;
+            height: 1.5rem;
+            width: 1.5rem;
+            border-radius: 100px;
+            @include flex-center();
+            color: white;
+        }
+    }
+    .fonctionnement__list--2 {
+        @include flex-space-between();
+        @include fonctionnement-border();
+        background-color: $couleur-box-gris;
+        span {
+            margin-left: -14.5%;
+            background: $couleur-primaire;
+            height: 1.5rem;
+            width: 1.5rem;
+            border-radius: 100px;
+            @include flex-center();
+            color: white;
+        }
+    }
+    .fonctionnement__list--3 {
+        @include flex-space-between();
+        @include fonctionnement-border();
+        background-color: #F5EDFF;
+        span {
+            margin-left: -14.5%;
+            background: $couleur-primaire;
+            height: 1.5rem;
+            width: 1.5rem;
+            border-radius: 100px;
+            @include flex-center();
+            color: white;
+        }
+        .fonctionnement__list--3--fas {
+            color: $couleur-primaire;
+        }
+    }
+    .fonctionnement__list--fas {
+        color: $couleur-icone;
+    }
+}
+
+
+.restaurant {
+    @include flex-center();
+    flex-direction: column;
+    background: $couleur-box-gris;
+}

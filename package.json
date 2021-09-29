@@ -1,0 +1,19 @@
+{
+  "name": "iaconotristan_3_16092021",
+  "version": "1.0.0",
+  "description": "Projet 03 OC",
+  "main": "index.js",
+  "scripts": {
+    "sass": "sass --watch ./scss/style.scss:css/style.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LahChouette/Iaconotristan_3_16092021.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/LahChouette/Iaconotristan_3_16092021/issues"
+  },
+  "homepage": "https://github.com/LahChouette/Iaconotristan_3_16092021#readme"
+}
