@@ -29,6 +29,7 @@
 .reservation__recherche__titre{
     p{
         font-weight: 300;
+        margin-bottom: 2%;
     }
 }
 
@@ -36,11 +37,13 @@
     
     h2 {
         @include flex-center();
+        margin-bottom: 2%;
     }
     .fonctionnement__list{
         display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
         justify-content: space-around;
-        align-items: center;
         margin-bottom: 1%;
     }
 
@@ -99,7 +102,13 @@
 
 
 .restaurant {
-    @include flex-center();
-    flex-direction: column;
+    
+    padding-bottom: 2%;
     background: $couleur-box-gris;
+    
+    h2 {
+        @include flex-center();
+        padding-top: 1%;
+        margin-bottom: 2%;
+    }
 }

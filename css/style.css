@@ -28,15 +28,56 @@ header {
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 1%;
+  width: 190px;
+  height: 50px;
+}
+
+.restaurant__menu {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.restaurant__card {
+  background-color: #fff;
+  border: 0 solid transparent;
+  border-radius: 16px;
+  width: 335px;
+  height: 100%;
 }
 
 .restaurant__card__img {
-  height: 400px;
-  width: 400px;
+  height: 175px;
+  width: 100%;
+  border-top-left-radius: 16px;
+  border-top-right-radius: 16px;
+  object-fit: cover;
+}
+
+.restaurant__card__info {
+  position: absolute;
+  top: auto;
+  margin-top: 0.7%;
+  margin-left: -85px;
+  padding: 5px;
+  background-color: #99e2d0;
+  color: #1b6150;
+  font-weight: bold;
 }
 
 footer {
   background: #353535;
+}
+
+.footer__logo {
+  width: 190px;
+  height: 50px;
 }
 
 .reservation {
@@ -60,17 +101,20 @@ footer {
 
 .reservation__recherche__titre p {
   font-weight: 300;
+  margin-bottom: 2%;
 }
 
 .fonctionnement h2 {
   display: flex;
   justify-content: center;
   align-items: center;
+  margin-bottom: 2%;
 }
 .fonctionnement .fonctionnement__list {
   display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
   justify-content: space-around;
-  align-items: center;
   margin-bottom: 1%;
 }
 .fonctionnement .fonctionnement__list__titre {
@@ -144,11 +188,15 @@ footer {
 }
 
 .restaurant {
+  padding-bottom: 2%;
+  background: #F6F6F6;
+}
+.restaurant h2 {
   display: flex;
   justify-content: center;
   align-items: center;
-  flex-direction: column;
-  background: #F6F6F6;
+  padding-top: 1%;
+  margin-bottom: 2%;
 }
 
 /*# sourceMappingURL=style.css.map */
