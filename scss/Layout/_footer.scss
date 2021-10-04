@@ -1,8 +1,23 @@
 footer {
+    padding-top: 1%;
     background: $couleur-box-noir;
+    color: white;
+
+    i {
+        margin-right: 10px;
+    }
 }
 
 .footer__logo {
     width: 190px;
     height: 50px;
+    padding-bottom: 1%;
+    margin-left: 10px;
+    filter:invert(1);
+}
+
+.footer__lien {
+    display: flex;
+    padding-bottom: 10px;
+    margin-left: 10px;
 }

@@ -37,3 +37,29 @@ a {
     font-weight: bold;
 }
 
+.restaurant__card__text {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+
+    h3 {
+        order: 1;
+        width: 50%;
+        justify-content: center;
+        margin-left: 3%;
+    }
+
+    p {
+        order: 3;
+        width: 50%;
+        justify-content: center;
+        margin-top: -10px;
+        margin-left: 3%;
+    }
+}
+
+.restaurant__card__coeur {
+    order: 2;
+    padding-left: 110px;
+    font-size: 25px;
+}

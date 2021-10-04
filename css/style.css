@@ -71,13 +71,52 @@ a {
   font-weight: bold;
 }
 
+.restaurant__card__text {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+.restaurant__card__text h3 {
+  order: 1;
+  width: 50%;
+  justify-content: center;
+  margin-left: 3%;
+}
+.restaurant__card__text p {
+  order: 3;
+  width: 50%;
+  justify-content: center;
+  margin-top: -10px;
+  margin-left: 3%;
+}
+
+.restaurant__card__coeur {
+  order: 2;
+  padding-left: 110px;
+  font-size: 25px;
+}
+
 footer {
+  padding-top: 1%;
   background: #353535;
+  color: white;
+}
+footer i {
+  margin-right: 10px;
 }
 
 .footer__logo {
   width: 190px;
   height: 50px;
+  padding-bottom: 1%;
+  margin-left: 10px;
+  filter: invert(1);
+}
+
+.footer__lien {
+  display: flex;
+  padding-bottom: 10px;
+  margin-left: 10px;
 }
 
 .reservation {
