@@ -50,6 +50,7 @@ a {
   border-radius: 16px;
   width: 335px;
   height: 100%;
+  box-shadow: 3px 8px 4px #dedada;
 }
 
 .restaurant__card__img {
