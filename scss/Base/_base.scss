@@ -6,10 +6,7 @@ body {
 .loader {
 
     position: fixed;
-    z-index: 99999;
-    top: 0;
-    right: 0;
-    bottom: 0;
+    z-index: 1;
     width: 100%;
     height: 100%;
     background:hsla(0,0%,100%,.9);
@@ -17,7 +14,6 @@ body {
     justify-content: center;
     align-items: center;
     visibility: hidden;
-    transition: visibility 2.3s;
 }
 
 .lds-roller {
@@ -37,7 +33,7 @@ body {
     width: 7px;
     height: 7px;
     border-radius: 50%;
-    background: black;
+    background: #ff79da;
     margin: -4px 0 0 -4px;
   }
   .lds-roller div:nth-child(1) {
