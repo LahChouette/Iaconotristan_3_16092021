@@ -12,7 +12,7 @@
 .reservation{
     text-align: center;
     background:$couleur-box-gris;
-    padding-bottom: 2%;
+    padding-bottom: 30px;
 }
 
 .reservation__local{
@@ -30,7 +30,7 @@
 .reservation__recherche__titre{
     p{
         font-weight: 300;
-        margin-bottom: 2%;
+        margin-bottom: 20px;
     }
 }
 
@@ -38,7 +38,7 @@
 
     h2 {
         @include flex-center();
-        margin-bottom: 2%;
+        margin-bottom: 20px;
     }
     .fonctionnement__list{
         display: flex;
@@ -55,6 +55,9 @@
         @include flex-space-between();
         @include fonctionnement-border();
         background-color: $couleur-box-gris;
+        margin-right: 35px;
+        margin-left: 35px;
+        margin-bottom: 25px;
         span {
             margin-left: -17%;
             background: $couleur-primaire;
@@ -69,6 +72,9 @@
         @include flex-space-between();
         @include fonctionnement-border();
         background-color: $couleur-box-gris;
+        margin-right: 35px;
+        margin-left: 35px;
+        margin-bottom: 25px;
         span {
             margin-left:-17.5%;
             background: $couleur-primaire;
@@ -83,6 +89,9 @@
         @include flex-space-between();
         @include fonctionnement-border();
         background-color: $couleur-box-gris;
+        margin-right: 35px;
+        margin-left: 35px;
+        margin-bottom: 25px;
         span {
             margin-left: -16.7%;
             background: $couleur-primaire;
@@ -116,7 +125,7 @@
     
     h2 {
         @include flex-center();
-        padding-top: 1%;
-        margin-bottom: 2%;
+        padding-top: 20px;
+        margin-bottom: 20px;
     }
 }

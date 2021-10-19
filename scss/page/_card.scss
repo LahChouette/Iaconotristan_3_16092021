@@ -8,6 +8,7 @@
 a {
     text-decoration: none;
     color: inherit;
+    margin-bottom: 40px;
 }
 
 .restaurant__card {
@@ -17,6 +18,8 @@ a {
     width: 335px;
     height: 100%;
     box-shadow: 3px 8px 4px #dedada;
+    margin-left: 20px;
+    margin-right: 20px;
 }
 
 .restaurant__card__img {
