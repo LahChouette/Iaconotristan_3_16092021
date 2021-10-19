@@ -35,7 +35,7 @@
 }
 
 .fonctionnement {
-    
+
     h2 {
         @include flex-center();
         margin-bottom: 2%;
@@ -56,7 +56,7 @@
         @include fonctionnement-border();
         background-color: $couleur-box-gris;
         span {
-            margin-left: -14.5%;
+            margin-left: -17%;
             background: $couleur-primaire;
             height: 1.5rem;
             width: 1.5rem;
@@ -70,7 +70,7 @@
         @include fonctionnement-border();
         background-color: $couleur-box-gris;
         span {
-            margin-left: -14.5%;
+            margin-left:-17.5%;
             background: $couleur-primaire;
             height: 1.5rem;
             width: 1.5rem;
@@ -82,9 +82,9 @@
     .fonctionnement__list--3 {
         @include flex-space-between();
         @include fonctionnement-border();
-        background-color: #F5EDFF;
+        background-color: $couleur-box-gris;
         span {
-            margin-left: -14.5%;
+            margin-left: -16.7%;
             background: $couleur-primaire;
             height: 1.5rem;
             width: 1.5rem;
@@ -92,13 +92,20 @@
             @include flex-center();
             color: white;
         }
-        .fonctionnement__list--3--fas {
-            color: $couleur-primaire;
-        }
     }
     .fonctionnement__list--fas {
         color: $couleur-icone;
     }
+}
+
+.fonctionnement__list--1:hover {
+    background-color: #F5EDFF;
+}
+.fonctionnement__list--2:hover {
+    background-color: #F5EDFF;
+}
+.fonctionnement__list--3:hover {
+    background-color: #F5EDFF;
 }
 
 
