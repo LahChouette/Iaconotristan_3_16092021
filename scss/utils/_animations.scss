@@ -1,0 +1,13 @@
+.restaurant__card__coeur{
+    background: linear-gradient(0deg, rgba(255,121,218,0.9248074229691877) 21%, rgba(176,96,219,1) 61%);
+    -webkit-background-clip: text;    
+}
+
+.fa-heart::before {
+    transition: color 1s ease-out;
+}
+    .fa-heart:hover::before{
+    font-weight: bold;
+    -webkit-text-fill-color: transparent;
+
+}
