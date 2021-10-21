@@ -1,8 +1,16 @@
+@charset "UTF-8";
 body {
   margin: 0%;
   padding: 0%;
 }
 
+/* titre pagemenu: Shrikhand */
+/* Texte font: Roboto */
+body {
+  font-family: "Roboto";
+}
+
+/* fin animation loader */
 .loader {
   position: fixed;
   z-index: 1;
@@ -118,12 +126,8 @@ body {
     transform: rotate(360deg);
   }
 }
-/* titre et logo font: Shrikhand */
-/* Texte font: Roboto */
-body {
-  font-family: "Roboto";
-}
-
+/* fin animation loader */
+/* animation coeur */
 .restaurant__card__coeur {
   background: linear-gradient(0deg, rgba(255, 121, 218, 0.924807423) 21%, #b060db 61%);
   -webkit-background-clip: text;
@@ -138,6 +142,23 @@ body {
   -webkit-text-fill-color: transparent;
 }
 
+/* fin animation coeur */
+/* animation menu déroulant */
+.menu__card__plat {
+  animation: pagemenu 0.8s ease-in-out;
+}
+
+@keyframes pagemenu {
+  0% {
+    transform: translateY(100px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0px);
+    opacity: 1;
+  }
+}
+/* fin animation menu déroulant */
 .reservation__bouton {
   padding: 15px 15px;
   border-radius: 100px;
@@ -279,6 +300,14 @@ a {
   margin-bottom: 5%;
   margin-top: 10%;
   box-shadow: 3px 6px 4px #dedada;
+}
+
+.menu__card__titre::after {
+  content: "";
+  width: 48px;
+  height: 4px;
+  background-color: #99e2d0;
+  position: absolute;
 }
 
 .menu__card__plat__text {

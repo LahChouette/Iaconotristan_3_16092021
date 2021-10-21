@@ -41,6 +41,14 @@
     box-shadow: 3px 6px 4px #dedada;
 }
 
+.menu__card__titre::after {
+    content: "";
+    width: 48px;
+    height: 4px;
+    background-color: #99e2d0;
+    position: absolute;
+}
+
 .menu__card__plat__text {
     display: flex;
     flex-wrap: wrap-reverse;
