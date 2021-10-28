@@ -441,7 +441,7 @@ a {
   transition-duration: 0.5s;
 }
 
-.menu__card__plat .fas.fa-check-circle {
+.menu__card__plat .fa-check-circle {
   position: absolute;
   left: 20px;
   top: 25px;
