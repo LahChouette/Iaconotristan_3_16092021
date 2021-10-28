@@ -8,6 +8,11 @@
     font-weight: 555;
 }
 
+.reservation__bouton:hover{
+    filter: brightness(1.1);
+    box-shadow: rgb(149 157 165 / 40%) 0px 5px 10px;
+}
+
 .commande__bouton {
     padding: 15px 15px;
     border-radius: 100px;
@@ -16,4 +21,10 @@
     background: linear-gradient(353deg, rgba(147,86,220,1) 0%, rgba(255,121,218,1) 74%);
     color:white;
     font-weight: 555;
+}
+
+
+.commande__bouton:hover{
+    filter: brightness(1.1);
+    box-shadow: rgb(149 157 165 / 40%) 0px 5px 10px;
 }

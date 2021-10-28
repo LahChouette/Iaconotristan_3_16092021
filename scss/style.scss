@@ -121,12 +121,12 @@
 
 .restaurant {
     
-    padding-bottom: 2%;
+    padding-bottom: 20px;
     background: $couleur-box-gris;
     
     h2 {
         @include flex-center();
         padding-top: 20px;
-        margin-bottom: 20px;
+        margin-bottom: 30px;
     }
 }

@@ -18,8 +18,6 @@ a {
     width: 335px;
     height: 100%;
     box-shadow: 3px 8px 4px #dedada;
-    margin-left: 20px;
-    margin-right: 20px;
 }
 
 .restaurant__card__img {
@@ -32,7 +30,6 @@ a {
 
 .restaurant__card__info {
     position: absolute;
-    top: auto;
     margin-top: 0.7%;
     margin-left: -85px;
     padding: 5px;
@@ -67,4 +64,21 @@ a {
     order: 2;
     padding-left: 110px;
     font-size: 25px;
+    padding-right: 15px;
+    margin-top: 20px;
+}
+
+@media screen and (max-width: 420px){
+    .restaurant__menu {
+        
+        display: flex;
+        flex-direction: column;
+    
+    }
+
+    .restaurant__card {
+        
+        width: 100%;
+    }
+    
 }

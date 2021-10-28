@@ -16,8 +16,16 @@ footer {
     filter:invert(1);
 }
 
-.footer__lien {
-    display: flex;
+nav {
     padding-bottom: 10px;
-    margin-left: 10px;
+    margin-left: -30px;
+    
+    ul {
+    
+        list-style: none;
+        
+        li {
+            margin-bottom: 10px;
+        }
+    }
 }
