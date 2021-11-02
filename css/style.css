@@ -136,13 +136,29 @@ body {
 }
 /* fin animation loader */
 /* coeur */
-.fa-heart:hover {
-  background: linear-gradient(#9356DC, #FF79DA);
-  font-weight: 900;
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+[type=checkbox] {
+  position: absolute;
+  left: 0;
+  opacity: 0.01;
 }
 
+.heart input[type=checkbox]:checked ~ i {
+  font-weight: 900;
+  background: linear-gradient(45deg, #ff79da 0%, #9356dc 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: heartanim 1.5s;
+}
+
+/* hearth animation gradient */
+@keyframes heartanim {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
 /* fin coeur */
 /* animation menu déroulant */
 .menu__card__plat {
@@ -232,10 +248,10 @@ header {
 }
 
 .retour {
-  font-size: 33px;
+  font-size: 24px;
   position: absolute;
   left: 20px;
-  top: 25px;
+  top: 21px;
 }
 
 .header__logo {
@@ -245,7 +261,6 @@ header {
   margin-bottom: 15px;
   margin-top: 20px;
   width: 190px;
-  height: 50px;
 }
 
 .restaurant__menu {
@@ -486,8 +501,6 @@ footer i {
 
 .footer__logo {
   width: 190px;
-  height: 50px;
-  padding-bottom: 10px;
   margin-left: 10px;
   filter: invert(1);
 }
