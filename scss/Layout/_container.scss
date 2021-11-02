@@ -123,14 +123,13 @@
     bottom: 0;
     right: 0;
     width: 60px;
-    transform-origin: right 50%;
+    transform-origin: right;
     border-radius: 0px 15px 15px 0px;
     transform: translateX(65px);
-    overflow: hidden;
     transition-duration: 0.5s;
 }
 
-.menu__card__plat .fa-check-circle {
+.fa-check-circle{
     position: absolute;
     left: 20px;
     top: 25px;

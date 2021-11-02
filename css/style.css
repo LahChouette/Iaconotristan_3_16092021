@@ -188,6 +188,18 @@ body {
   transition: 0.5s ease-in-out;
 }
 
+.menu__card__plat:hover .fa-check-circle {
+  animation: rotation 0.5s ease-in-out;
+}
+
+@keyframes rotation {
+  0% {
+    transform: rotate(360deg);
+  }
+  100% {
+    transform: rotate(0deg);
+  }
+}
 /* fin animation menu check */
 .reservation__bouton {
   padding: 15px 15px;
@@ -434,14 +446,13 @@ a {
   bottom: 0;
   right: 0;
   width: 60px;
-  transform-origin: right 50%;
+  transform-origin: right;
   border-radius: 0px 15px 15px 0px;
   transform: translateX(65px);
-  overflow: hidden;
   transition-duration: 0.5s;
 }
 
-.menu__card__plat .fa-check-circle {
+.fa-check-circle {
   position: absolute;
   left: 20px;
   top: 25px;

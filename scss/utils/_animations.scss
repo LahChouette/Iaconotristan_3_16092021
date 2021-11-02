@@ -166,9 +166,28 @@
   width: calc(50% - 15px);
   transition: width .5s ease-in-out;
 }
+
 .menu__card__plat:hover .menu__card__plat__check {
   transform: translateX(0px);
   transition: .5s ease-in-out;
+}
+
+.menu__card__plat:hover .fa-check-circle {
+  animation: rotation .5s ease-in-out;
+}
+
+
+@keyframes rotation { 
+  
+  0% {
+    transform: rotate(360deg);
+  }
+  
+  
+  100% { 
+   transform:rotate(0deg); 
+  } 
+
 }
 
 /* fin animation menu check */
