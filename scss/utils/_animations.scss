@@ -114,18 +114,12 @@
 
 /* coeur */
 
-.fa-heart{
-  font-weight: 100;
-
-}
-
 .fa-heart:hover{
   background: linear-gradient(0deg, rgba(255,121,218,0.9248074229691877) 21%, rgba(176,96,219,1) 61%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   font-weight: 900;
 }
-
 /* fin coeur */
 
 /* animation menu déroulant */
@@ -163,8 +157,8 @@
 /* animation menu check */
 
 .menu__card__plat:hover .menu__card__plat__prix {
-  width: calc(50% - 15px);
-  transition: width .5s ease-in-out;
+  margin-right: 100px;
+  transition: .5s ease-out;
 }
 
 .menu__card__plat:hover .menu__card__plat__check {
@@ -173,7 +167,7 @@
 }
 
 .menu__card__plat:hover .fa-check-circle {
-  animation: rotation .5s ease-in-out;
+  animation: rotation .6s ease-in-out;
 }
 
 
