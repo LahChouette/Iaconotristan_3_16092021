@@ -137,10 +137,10 @@ body {
 /* fin animation loader */
 /* coeur */
 .fa-heart:hover {
-  background: linear-gradient(0deg, rgba(255, 121, 218, 0.924807423) 21%, #b060db 61%);
+  background: linear-gradient(#9356DC, #FF79DA);
+  font-weight: 900;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  font-weight: 900;
 }
 
 /* fin coeur */
@@ -176,7 +176,7 @@ body {
 /* animation menu check */
 .menu__card__plat:hover .menu__card__plat__prix {
   margin-right: 100px;
-  transition: 0.5s ease-out;
+  transition: 0.5s ease-in-out;
 }
 
 .menu__card__plat:hover .menu__card__plat__check {
@@ -209,7 +209,7 @@ body {
 
 .reservation__bouton:hover {
   filter: brightness(1.1);
-  box-shadow: rgba(149, 157, 165, 0.4) 0px 5px 10px;
+  box-shadow: rgba(0, 0, 0, 0.6) 0px 5px 10px;
 }
 
 .commande__bouton {
@@ -224,7 +224,7 @@ body {
 
 .commande__bouton:hover {
   filter: brightness(1.1);
-  box-shadow: rgba(149, 157, 165, 0.4) 0px 5px 10px;
+  box-shadow: rgba(0, 0, 0, 0.6) 0px 5px 10px;
 }
 
 header {
@@ -445,7 +445,6 @@ a {
   transform-origin: right;
   border-radius: 0px 15px 15px 0px;
   transform: translateX(65px);
-  transition-duration: 0.5s;
 }
 
 .fa-check-circle {
