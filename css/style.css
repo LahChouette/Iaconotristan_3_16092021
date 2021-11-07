@@ -370,6 +370,7 @@ a {
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: space-around;
+  gap: 2rem;
 }
 
 .menu__card {
