@@ -108,14 +108,29 @@
     }
 }
 
-.fonctionnement__list--1:hover {
+.fonctionnement__list--1:hover{
+    
     background-color: #F5EDFF;
+    
+    .fonctionnement__list--fas {
+        color: $couleur-primaire;
+    }
 }
-.fonctionnement__list--2:hover {
+.fonctionnement__list--2:hover{
     background-color: #F5EDFF;
+
+    .fonctionnement__list--fas {
+        color: $couleur-primaire;
+    }
+
 }
-.fonctionnement__list--3:hover {
+.fonctionnement__list--3:hover{
     background-color: #F5EDFF;
+
+    .fonctionnement__list--fas {
+        color: $couleur-primaire;
+    }
+
 }
 
 

@@ -14,14 +14,19 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    gap: 2rem;
     padding-top: 1%;
     border-radius: 1.5rem 1.5rem 0 0;
     background:#F6F6F6;
     position: relative;
     margin-top: -3%;
-    padding-left: 15px;
     font-family: 'Shrikhand';
 
+}
+
+.restaurant__coeur {
+
+    font-size: 25px;
 }
 
 .menu--position {

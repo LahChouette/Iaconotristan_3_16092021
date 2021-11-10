@@ -122,13 +122,13 @@
 
 .heart{
   
-  input[type="checkbox"]:checked ~ i {
+  input[type="checkbox"]:hover ~ i {
     
     font-weight: 900;
     background: linear-gradient(45deg,rgba(255, 121, 218, 1) 0%,rgba(147, 86, 220, 1) 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    animation: heartanim 1.5s;
+    animation: heartanim 2s ease-in-out;
   }
 }
 
